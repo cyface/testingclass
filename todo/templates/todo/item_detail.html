@@ -1,0 +1,10 @@
+{% extends "project/base.html" %}
+{% load todo_tags %}
+{% block content %}
+    <h3>Item Detail</h3>
+    <h4>Title: {{ item.title }}</h4>
+    <h5>Photo: <img src="{% get_photo_url item.pk %}"/></h5>
+    <h5><a href="{% url 'item_update' item.pk %}">Edit This Item</a></h5>
+    <h5><a href="{% url 'list_detail' item.list.pk %}">Back to Parent List: {{ item.list.name }}</a></h5>
+    <h5><a href="{% url 'list_list' %}">Back to List of Lists</a></h5>
+{% endblock %}

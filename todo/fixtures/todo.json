@@ -1,0 +1,63 @@
+[
+  {
+    "model": "todo.list",
+    "pk": 1,
+    "fields": {
+      "name": "List1"
+    }
+  },
+  {
+    "model": "todo.list",
+    "pk": 2,
+    "fields": {
+      "name": "List2"
+    }
+  },
+  {
+    "model": "todo.list",
+    "pk": 3,
+    "fields": {
+      "name": "List3"
+    }
+  },
+  {
+    "model": "todo.item",
+    "pk": 1,
+    "fields": {
+      "title": "Item1",
+      "list": 1
+    }
+  },
+  {
+    "model": "todo.item",
+    "pk": 2,
+    "fields": {
+      "title": "Item2",
+      "list": 1
+    }
+  },
+  {
+    "model": "todo.item",
+    "pk": 3,
+    "fields": {
+      "title": "Item3",
+      "list": 2
+    }
+  },
+  {
+    "model": "todo.item",
+    "pk": 4,
+    "fields": {
+      "title": "Item4",
+      "list": 3
+    }
+  },
+  {
+    "model": "todo.item",
+    "pk": 5,
+    "fields": {
+      "title": "Item5",
+      "list": 3
+    }
+  }
+]
