@@ -1,4 +1,6 @@
+{% load static %}
 {% block content %}
-    Home Page
-    <h3><a href="{% url 'list_list' %}">Lists</a></h3>
+    <h1>Home Page</h1>
+    <img src="{% static 'project/img/to-do.pnggg' %}" alt="To-Do" width="277px"/>
+    <h3><a href="{% url 'list_list' %}">To-Do Lists</a></h3>
 {% endblock %}
