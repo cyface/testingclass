@@ -21,3 +21,4 @@ To run tests:
 1. `python manage.py test` (or use the `All Tests` config in PyCharm's Run Menu)
 1. `python manage.py test project` to only run the tests in the `project` module
 1. `python manage.py test todo.tests.model_tests.TestListModel.test_list_data` to run only a single specific test
+1. `python functional_tests` to run the functional tests
